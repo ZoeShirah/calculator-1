@@ -29,12 +29,12 @@ def square(num):
 
 def cube(num):
     """Return the cube of a number"""
-    return num * num * num
+    return num ** 3
 
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
-    return pow(num, exponent)
+    return num ** exponent
 
 
 def mod(num1, num2):
