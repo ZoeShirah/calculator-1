@@ -34,9 +34,9 @@ def cube(num):
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
-    pass
+    return pow(num, exponent)
 
 
 def mod(num1, num2):
     """Return remainder of num1 divided by num2"""
-    pass
+    return num1 % num2
